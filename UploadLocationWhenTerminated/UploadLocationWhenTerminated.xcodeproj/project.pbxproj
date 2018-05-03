@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41369D20B4E9C4A597CE6546 /* libPods-UploadLocationWhenTerminated.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C7DA076C1D37015D37E72F /* libPods-UploadLocationWhenTerminated.a */; };
+		F5BA7CE1208097750023A20C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BA7CE0208097750023A20C /* AppDelegate.m */; };
+		F5BA7CE4208097750023A20C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BA7CE3208097750023A20C /* MapViewController.m */; };
+		F5BA7CE9208097760023A20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BA7CE8208097760023A20C /* Assets.xcassets */; };
+		F5BA7CEF208097760023A20C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BA7CEE208097760023A20C /* main.m */; };
+		F5BA7CF7208098600023A20C /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BA7CF6208098600023A20C /* DataViewController.m */; };
+		F5BA7CFA20809E440023A20C /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BA7CF920809E440023A20C /* LocationService.m */; };
+		F5BA7CFD2080A4C20023A20C /* LocationRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BA7CFC2080A4C20023A20C /* LocationRecord.m */; };
+		F5BA7D002080B18B0023A20C /* RecordModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BA7CFF2080B18B0023A20C /* RecordModelManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69C7DA076C1D37015D37E72F /* libPods-UploadLocationWhenTerminated.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UploadLocationWhenTerminated.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD38D0BA70027B245360CAE6 /* Pods-UploadLocationWhenTerminated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UploadLocationWhenTerminated.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UploadLocationWhenTerminated/Pods-UploadLocationWhenTerminated.debug.xcconfig"; sourceTree = "<group>"; };
+		F5BA7CDC208097750023A20C /* UploadLocationWhenTerminated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UploadLocationWhenTerminated.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BA7CDF208097750023A20C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5BA7CE0208097750023A20C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5BA7CE2208097750023A20C /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F5BA7CE3208097750023A20C /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		F5BA7CE8208097760023A20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5BA7CED208097760023A20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BA7CEE208097760023A20C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5BA7CF5208098600023A20C /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		F5BA7CF6208098600023A20C /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		F5BA7CF820809E440023A20C /* LocationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		F5BA7CF920809E440023A20C /* LocationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
+		F5BA7CFB2080A4C20023A20C /* LocationRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationRecord.h; sourceTree = "<group>"; };
+		F5BA7CFC2080A4C20023A20C /* LocationRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationRecord.m; sourceTree = "<group>"; };
+		F5BA7CFE2080B18B0023A20C /* RecordModelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordModelManager.h; sourceTree = "<group>"; };
+		F5BA7CFF2080B18B0023A20C /* RecordModelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordModelManager.m; sourceTree = "<group>"; };
+		F7DD4DA594CC556BDEF1A726 /* Pods-UploadLocationWhenTerminated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UploadLocationWhenTerminated.release.xcconfig"; path = "Pods/Target Support Files/Pods-UploadLocationWhenTerminated/Pods-UploadLocationWhenTerminated.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5BA7CD9208097750023A20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41369D20B4E9C4A597CE6546 /* libPods-UploadLocationWhenTerminated.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1408AA897164D20E6DAC5C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD38D0BA70027B245360CAE6 /* Pods-UploadLocationWhenTerminated.debug.xcconfig */,
+				F7DD4DA594CC556BDEF1A726 /* Pods-UploadLocationWhenTerminated.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCF9CA677173AD68568623B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C7DA076C1D37015D37E72F /* libPods-UploadLocationWhenTerminated.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5BA7CD3208097750023A20C = {
+			isa = PBXGroup;
+			children = (
+				F5BA7CDE208097750023A20C /* UploadLocationWhenTerminated */,
+				F5BA7CDD208097750023A20C /* Products */,
+				C1408AA897164D20E6DAC5C3 /* Pods */,
+				CCF9CA677173AD68568623B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5BA7CDD208097750023A20C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BA7CDC208097750023A20C /* UploadLocationWhenTerminated.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BA7CDE208097750023A20C /* UploadLocationWhenTerminated */ = {
+			isa = PBXGroup;
+			children = (
+				F5BA7CDF208097750023A20C /* AppDelegate.h */,
+				F5BA7CE0208097750023A20C /* AppDelegate.m */,
+				F5BA7CE2208097750023A20C /* MapViewController.h */,
+				F5BA7CE3208097750023A20C /* MapViewController.m */,
+				F5BA7CE8208097760023A20C /* Assets.xcassets */,
+				F5BA7CED208097760023A20C /* Info.plist */,
+				F5BA7CEE208097760023A20C /* main.m */,
+				F5BA7CF5208098600023A20C /* DataViewController.h */,
+				F5BA7CF6208098600023A20C /* DataViewController.m */,
+				F5BA7CF820809E440023A20C /* LocationService.h */,
+				F5BA7CF920809E440023A20C /* LocationService.m */,
+				F5BA7CFB2080A4C20023A20C /* LocationRecord.h */,
+				F5BA7CFC2080A4C20023A20C /* LocationRecord.m */,
+				F5BA7CFE2080B18B0023A20C /* RecordModelManager.h */,
+				F5BA7CFF2080B18B0023A20C /* RecordModelManager.m */,
+			);
+			path = UploadLocationWhenTerminated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BA7CDB208097750023A20C /* UploadLocationWhenTerminated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BA7CF2208097760023A20C /* Build configuration list for PBXNativeTarget "UploadLocationWhenTerminated" */;
+			buildPhases = (
+				8C3B0B9AFDAB9B0F8C31E3E9 /* [CP] Check Pods Manifest.lock */,
+				F5BA7CD8208097750023A20C /* Sources */,
+				F5BA7CD9208097750023A20C /* Frameworks */,
+				F5BA7CDA208097750023A20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UploadLocationWhenTerminated;
+			productName = UploadLocationWhenTerminated;
+			productReference = F5BA7CDC208097750023A20C /* UploadLocationWhenTerminated.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5BA7CD4208097750023A20C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = starrythrone;
+				TargetAttributes = {
+					F5BA7CDB208097750023A20C = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F5BA7CD7208097750023A20C /* Build configuration list for PBXProject "UploadLocationWhenTerminated" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5BA7CD3208097750023A20C;
+			productRefGroup = F5BA7CDD208097750023A20C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5BA7CDB208097750023A20C /* UploadLocationWhenTerminated */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5BA7CDA208097750023A20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BA7CE9208097760023A20C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C3B0B9AFDAB9B0F8C31E3E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UploadLocationWhenTerminated-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5BA7CD8208097750023A20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BA7CF7208098600023A20C /* DataViewController.m in Sources */,
+				F5BA7CFA20809E440023A20C /* LocationService.m in Sources */,
+				F5BA7D002080B18B0023A20C /* RecordModelManager.m in Sources */,
+				F5BA7CE4208097750023A20C /* MapViewController.m in Sources */,
+				F5BA7CEF208097760023A20C /* main.m in Sources */,
+				F5BA7CE1208097750023A20C /* AppDelegate.m in Sources */,
+				F5BA7CFD2080A4C20023A20C /* LocationRecord.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5BA7CF0208097760023A20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5BA7CF1208097760023A20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BA7CF3208097760023A20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD38D0BA70027B245360CAE6 /* Pods-UploadLocationWhenTerminated.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HABU2A8ZM2;
+				INFOPLIST_FILE = UploadLocationWhenTerminated/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = starrythrone.UploadLocationWhenTerminated;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F5BA7CF4208097760023A20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DD4DA594CC556BDEF1A726 /* Pods-UploadLocationWhenTerminated.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HABU2A8ZM2;
+				INFOPLIST_FILE = UploadLocationWhenTerminated/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = starrythrone.UploadLocationWhenTerminated;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5BA7CD7208097750023A20C /* Build configuration list for PBXProject "UploadLocationWhenTerminated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BA7CF0208097760023A20C /* Debug */,
+				F5BA7CF1208097760023A20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BA7CF2208097760023A20C /* Build configuration list for PBXNativeTarget "UploadLocationWhenTerminated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BA7CF3208097760023A20C /* Debug */,
+				F5BA7CF4208097760023A20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5BA7CD4208097750023A20C /* Project object */;
+}
